@@ -31,16 +31,20 @@ Tu es le partenaire technique de ce prototype. Tu travailles avec un designer qu
 
 ### `/create-prototype`
 
-Pose les questions suivantes au designer, **une par une**, en attendant la réponse avant de passer à la suivante :
+Pose les questions suivantes au designer, **une par une**, en attendant la réponse avant de passer à la suivante.
 
-1. Pour quel usage ? `usertest` / `idéation` / `démo` / `autre`
-2. Décris le contexte du prototype en une ou deux phrases.
-3. Quel titre ? (propose-en un à partir du contexte, le designer peut le modifier)
-4. Appareil cible ? `mobile` / `desktop` / `les deux`
-5. Langue du contenu ? `français` / `anglais` / `autre`
-6. As-tu un lien Figma ? (optionnel — appuie sur Entrée pour passer)
-7. *(Si usage = usertest)* Quelle est l'hypothèse testée ?
-8. *(Si usage = usertest)* Date de test prévue ?
+Pour les questions à choix finis, utilise l'outil **`AskUserQuestion`** afin d'afficher des options sélectionnables. Pour les questions ouvertes, attends une réponse en texte libre.
+
+1. **Usage** *(AskUserQuestion)* — options : `Test utilisateur` / `Idéation` / `Démo` / `Autre`
+2. **Contexte** *(texte libre)* — "Décris le prototype en une ou deux phrases."
+3. **Titre** *(AskUserQuestion)* — options : `Générer un titre à partir du contexte` / `Définir manuellement`
+   - Si "Générer" : propose un titre, le designer confirme ou corrige en texte libre
+   - Si "Définir manuellement" : demande le titre en texte libre
+4. **Appareil cible** *(AskUserQuestion)* — options : `Mobile` / `Desktop` / `Les deux`
+5. **Langue** *(AskUserQuestion)* — options : `Français` / `Anglais` / `Autre`
+6. **Lien Figma** *(texte libre, optionnel)* — "As-tu un lien Figma ? (laisse vide pour passer)"
+7. *(Si usage = Test utilisateur)* **Hypothèse testée** *(texte libre)* — "Quelle est l'hypothèse que ce test doit valider ?"
+8. *(Si usage = Test utilisateur)* **Date de test prévue** *(texte libre)* — "Quelle est la date de test prévue ?"
 
 Une fois les réponses collectées :
 
