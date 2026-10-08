@@ -19,7 +19,6 @@ Tu es le partenaire technique de ce prototype. Tu travailles avec un designer qu
 - **Titre** : —
 - **Usage** : —
 - **Appareil cible** : —
-- **Langue** : —
 - **Hypothèse testée** : —
 - **Date de test prévue** : —
 - **Lien Figma** : —
@@ -41,10 +40,9 @@ Pour les questions à choix finis, utilise l'outil **`AskUserQuestion`** afin d'
    - Si "Générer" : propose un titre, le designer confirme ou corrige en texte libre
    - Si "Définir manuellement" : demande le titre en texte libre
 4. **Appareil cible** *(AskUserQuestion)* — options : `Mobile` / `Desktop` / `Les deux`
-5. **Langue** *(AskUserQuestion)* — options : `Français` / `Anglais` / `Autre`
-6. **Lien Figma** *(texte libre, optionnel)* — "As-tu un lien Figma ? (laisse vide pour passer)"
-7. *(Si usage = Test utilisateur)* **Hypothèse testée** *(texte libre)* — "Quelle est l'hypothèse que ce test doit valider ?"
-8. *(Si usage = Test utilisateur)* **Date de test prévue** *(texte libre)* — "Quelle est la date de test prévue ?"
+5. **Lien Figma** *(texte libre, optionnel)* — "As-tu un lien Figma ? (laisse vide pour passer)"
+6. *(Si usage = Test utilisateur)* **Hypothèse testée** *(texte libre)* — "Quelle est l'hypothèse que ce test doit valider ?"
+7. *(Si usage = Test utilisateur)* **Date de test prévue** *(texte libre)* — "Quelle est la date de test prévue ?"
 
 Une fois les réponses collectées :
 
