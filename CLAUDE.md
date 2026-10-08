@@ -121,6 +121,16 @@ Une fois les réponses collectées :
 - Les composants du prototype vont dans `src/components/`.
 - Pas de CSS custom sauf si absolument nécessaire — documente pourquoi dans ce cas.
 
+### Spark — tokens à utiliser
+
+- Espacement sémantique : `gap-sm` (4px), `gap-md` (8px), `gap-lg` (16px),
+  `gap-xl` (24px), `gap-2xl` (32px). Idem pour `p-*`, `px-*`, `py-*`.
+- Tailles fixes : `size-sz-16/20/32/40/44`, `w-sz-*`, `h-sz-*`.
+- Ne jamais utiliser les classes numériques Tailwind (`size-5`, `gap-4`, `p-6`) —
+  Spark redéfinit `--spacing` et elles ne donnent pas les valeurs attendues.
+- Pour les dimensions `width`/`height` des balises `<img>` et SVG : toujours utiliser
+  des styles inline en pixels, pas des classes Tailwind.
+
 ---
 
 ## Règles générales
