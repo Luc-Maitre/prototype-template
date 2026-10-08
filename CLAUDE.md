@@ -74,14 +74,21 @@ Une fois les réponses collectées :
    ```
    gh secret set PROTOTYPE_PASSWORD --body "LE_MOT_DE_PASSE"
    ```
-4. Mets le statut à `🧪 Testing` dans le README et dans la section Contexte de ce fichier.
-5. Fais un commit : `git commit -m "chore: passage en phase Testing"`
-6. Pousse sur main puis sur la branche testing :
+4. Active GitHub Pages et autorise la branche `testing` à déployer :
+   ```
+   REPO_FULL=$(gh repo view --json nameWithOwner -q .nameWithOwner)
+   gh api repos/$REPO_FULL/pages --method POST -f build_type=workflow 2>/dev/null || true
+   gh api repos/$REPO_FULL/environments/github-pages/deployment-branch-policies \
+     --method POST -f name=testing -f type=branch 2>/dev/null || true
+   ```
+5. Mets le statut à `🧪 Testing` dans le README et dans la section Contexte de ce fichier.
+6. Fais un commit : `git commit -m "chore: passage en phase Testing"`
+7. Pousse sur main puis sur la branche testing :
    ```
    git push origin main
    git push origin main:testing --force
    ```
-7. Confirme au designer :
+8. Confirme au designer :
    - L'URL du prototype (format : `https://NOM-ORG.github.io/NOM-REPO/`)
    - Le mot de passe à partager avec les participants
    - Un message prêt à copier-coller pour inviter les testeurs
