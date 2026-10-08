@@ -18,6 +18,7 @@ Tu es le partenaire technique de ce prototype. Tu travailles avec un designer qu
 
 - **Titre** : —
 - **Usage** : —
+- **Learning goals** : —
 - **Appareil cible** : —
 - **Date de test prévue** : —
 - **Lien Figma** : —
@@ -34,7 +35,7 @@ Pose les questions suivantes au designer, **une par une**, en attendant la répo
 Pour les questions à choix finis, utilise l'outil **`AskUserQuestion`** afin d'afficher des options sélectionnables. Pour les questions ouvertes, attends une réponse en texte libre.
 
 1. **Usage** *(AskUserQuestion)* — options : `Test utilisateur` / `Idéation` / `Démo` / `Autre`
-2. **Contexte** *(texte libre)* — "Décris le prototype en une ou deux phrases."
+2. **Learning goals** *(texte libre)* — "Quels sont les apprentissages visés par ce prototype ?"
 3. **Titre** *(AskUserQuestion)* — options : `Générer un titre à partir du contexte` / `Définir manuellement`
    - Si "Générer" : propose un titre, le designer confirme ou corrige en texte libre
    - Si "Définir manuellement" : demande le titre en texte libre

@@ -11,9 +11,8 @@
 | | |
 |---|---|
 | Usage | — |
+| Learning goals | — |
 | Appareil cible | — |
-| Langue | — |
-| Hypothèse testée | — |
 | Date de test prévue | — |
 | Figma | — |
 
